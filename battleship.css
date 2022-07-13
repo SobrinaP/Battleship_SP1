@@ -33,15 +33,22 @@ td {
 	width: 94px;
 	height: 94px;
 }
-form {
+form#formFire {
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
 	padding: 15px;
 	background-color: rgb(83, 175, 19);
 }
-form input {
+form#formFire input {
 	background-color: rgb(152, 207, 113);
 	border-color: rgb(83, 175, 19);
 	font-size: 1em;
+}
+form#formQuit {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 5px;
+	background-color: rgb(83, 175, 19);
 }
